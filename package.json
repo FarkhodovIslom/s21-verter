@@ -1,0 +1,35 @@
+{
+  "name": "s21-verter",
+  "version": "1.0.0",
+  "description": "Custom auto-tester for School 21 projects. Test before you submit.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "verter": "./bin/verter.js",
+    "s21-verter": "./bin/verter.js"
+  },
+  "scripts": {
+    "start": "node bin/verter.js",
+    "test": "node bin/verter.js run",
+    "style": "node bin/verter.js style"
+  },
+  "keywords": [
+    "school21", "ecole42", "testing", "auto-test", "verter", "s21"
+  ],
+  "author": "Hanzo Dev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.0",
+    "cli-table3": "^0.6.0",
+    "commander": "^12.0.0",
+    "figlet": "^1.0.0",
+    "glob": "^10.0.0",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^9.0.0",
+    "ora": "^7.0.0"
+  }
+}
